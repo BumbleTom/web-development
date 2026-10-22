@@ -1,0 +1,77 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --card-color: #f4f4f4;
+  --button-bg: #2c3e50;
+  --button-text: #ffffff;
+}
+
+body.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --card-color: #333333;
+  --button-bg: #555555;
+  --button-text: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--card-color);
+  color: var(--text-color);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#char-count,
+#word-count {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 16px;
+  border: none;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.warning {
+  color: orange;
+}
+
+.over {
+  color: red;
+  font-weight: bold;
+}
