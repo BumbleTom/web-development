@@ -1,0 +1,7 @@
+# Reflection
+
+The most difficult concept in this course was system design and scalability. Early in the course, it was challenging to understand how large applications handle thousands or millions of users while remaining fast and reliable. Concepts such as load balancers, caching, read replicas, queues, and workers initially felt abstract because they are not visible when building small projects. I overcame this by repeatedly drawing architecture diagrams and relating each component to a real problem it solves, such as using a cache to reduce database load or using a queue to process slow tasks in the background.
+
+Based on feedback received during the QuickNotes System Design project, I would improve the architecture section by providing more detailed traffic estimates and more realistic scaling assumptions. I would also include additional diagrams showing failure scenarios and recovery mechanisms to demonstrate deeper system design thinking.
+
+The next topics I want to learn are backend development with Node.js and Express, database administration, and cloud platforms such as Microsoft Azure. These skills would help me move beyond front-end applications and build complete production-ready systems that can scale to real-world workloads.
