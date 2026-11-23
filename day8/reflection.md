@@ -1,7 +1,7 @@
-# Reflection
+# Course Reflection
 
-The most difficult concept in this course was system design and scalability. Early in the course, it was challenging to understand how large applications handle thousands or millions of users while remaining fast and reliable. Concepts such as load balancers, caching, read replicas, queues, and workers initially felt abstract because they are not visible when building small projects. I overcame this by repeatedly drawing architecture diagrams and relating each component to a real problem it solves, such as using a cache to reduce database load or using a queue to process slow tasks in the background.
+The most difficult concept for me was understanding how large systems scale. At first, components such as load balancers, caches, queues, and read replicas felt disconnected. What helped me was working through the QuickNotes System Design project and drawing architecture diagrams for each assignment. Seeing how each component solved a specific problem made the concepts much easier to understand.
 
-Based on feedback received during the QuickNotes System Design project, I would improve the architecture section by providing more detailed traffic estimates and more realistic scaling assumptions. I would also include additional diagrams showing failure scenarios and recovery mechanisms to demonstrate deeper system design thinking.
+Based on the feedback I received on my capstone project, I would improve the architecture section by providing more detailed explanations of cache updates and request flows. I would also spend more time refining my load estimates so they are easier for others to follow.
 
-The next topics I want to learn are backend development with Node.js and Express, database administration, and cloud platforms such as Microsoft Azure. These skills would help me move beyond front-end applications and build complete production-ready systems that can scale to real-world workloads.
+Next, I plan to learn backend development using Node.js, Express, and PostgreSQL. I would also like to learn React so that I can build complete full-stack applications and connect the system designs I create with working software implementations.
